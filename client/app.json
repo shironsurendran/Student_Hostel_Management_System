@@ -1,0 +1,34 @@
+{
+  "expo": {
+    "name": "SHMS",
+    "slug": "AwesomeProject",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/hostel.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/loading.gif",
+      "resizeMode":"cover",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/eventwhiz.webp",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.rode_ricks.AwesomeProject"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "0d242196-1a59-4f6d-85ae-d77e28c54851"
+      }
+    }
+  }
+}
